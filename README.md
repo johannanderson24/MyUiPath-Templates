@@ -25,6 +25,7 @@
 
 2. **GET TRANSACTION DATA**
  - Data is pulled from the excel data table created using following: in_TransactionNumber < io_dt_TransactionData.Rows.Count
+ - Modification: String Data table created will be used to store each TrasactionDataRow and output each Item as a log message. This functionality was not previously available and when updated will allow you to view each rowItem with all the column details collected.
  
 3. **PROCESS TRANSACTION**
  + *Process* - Process trasaction and invoke other workflows related to the process being automated 
